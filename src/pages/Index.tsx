@@ -41,7 +41,7 @@ const Index = () => {
           {/* Feature Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             <Card className="border-electronics-blue/20">
-              <CardHeader className="bg-blue-100">
+              <CardHeader className="bg-blue-100 rounded-md">
                 <CardTitle className="flex items-center gap-2 text-electronics-blue">
                   <Zap className="h-5 w-5" />
                   Enhanced Coverage
