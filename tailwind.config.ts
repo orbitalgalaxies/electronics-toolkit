@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				electronics: {
+					blue: 'hsl(var(--electronics-blue))',
+					green: 'hsl(var(--electronics-green))',
+					orange: 'hsl(var(--electronics-orange))'
+				},
+				component: {
+					bg: 'hsl(var(--component-bg))',
+					border: 'hsl(var(--component-border))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
