@@ -53,7 +53,7 @@ const Index = () => {
             </Card>
             
             <Card className="border-electronics-green/20">
-              <CardHeader>
+              <CardHeader className="bg-emerald-100 rounded-sm">
                 <CardTitle className="flex items-center gap-2 text-electronics-green">
                   <Calculator className="h-5 w-5" />
                   Complete Tolerance
