@@ -36,7 +36,7 @@ const Index = () => {
       </section>
 
       {/* Main Content */}
-      <section className="py-20">
+      <section className="py-20 bg-[#313121]/[0.24]">
         <div className="container mx-auto px-4">
           {/* Feature Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
