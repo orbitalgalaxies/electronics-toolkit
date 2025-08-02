@@ -65,7 +65,7 @@ const Index = () => {
             </Card>
             
             <Card className="border-electronics-orange/20">
-              <CardHeader className="rounded-sm bg-orange-200">
+              <CardHeader className="rounded-sm bg-rose-100">
                 <CardTitle className="flex items-center gap-2 text-electronics-orange">
                   <Code className="h-5 w-5" />
                   Integration Ready
