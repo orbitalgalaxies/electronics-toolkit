@@ -11,7 +11,7 @@ const Index = () => {
           <div className="flex justify-center mb-6">
             <Cpu className="h-16 w-16 text-white" />
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 px-[5px] py-[7px] my-[10px] mx-0">
+          <h1 className="text-4xl md:text-6xl mb-6 px-[5px] py-[7px] my-[10px] mx-0 font-light text-stone-500">
             Electronics Toolkit
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto mb-8">
