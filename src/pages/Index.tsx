@@ -2,13 +2,11 @@ import InductorDecoder from '@/components/InductorDecoder';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Cpu, Zap, Calculator, Code } from 'lucide-react';
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-electronics py-20">
-        <div className="absolute inset-0 bg-black/5"></div>
+        <div className="absolute inset-0 bg-zinc-300"></div>
         <div className="relative container mx-auto px-4 text-center">
           <div className="flex justify-center mb-6">
             <Cpu className="h-16 w-16 text-white" />
@@ -118,8 +116,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
